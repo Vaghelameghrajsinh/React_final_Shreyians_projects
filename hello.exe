@@ -1,0 +1,72 @@
+1. react : javaScript library 
+use to create complex fronted/UI
+components base library 
+phele pure page ko reload krna pdta tha ek bhi components ko update krne k liye 
+react : components based architecture :
+puri website ko components me baat do
+jo change hoga vhi render hoga baki components same hi rahenge 
+
+
+a.library : ek particular feature ko implement kr ne ke liye 
+-GSAP : Moving animation
+-Lenis : smooth scrolling 
+-ReactJs : UI banane k liye 
+
+b.framework : sab kuch ek ho form me inbuilt 
+-Nextjs : 
+-Talwinds  : pura style 
+
+
+2. import and export : data ko ek file se dusre file me send and recieve krne k liye 
+ 
+ export has 2 type : 
+
+ a. default export 
+ b. named export 
+
+// named export : curly bracket and name vo chahiye 
+ export let arr = [1,2,3,4,5];
+import {arr} from './app.js'
+console.log(arr);
+
+// default export : 
+let a = 22;
+export default a;
+import a from from './app.js'
+
+3. Real DOM vs Virtual DOM : 
+
+Real DOM : actual dom  : vo tree like structure : 
+usme kuch bhi update krna to pura dom re-render hota hai
+
+but hme aisa nhi chahiye but jo update ho use hi re-render krna pdega : 
+
+// Virtual DOM : Real dom ko copy banata hai 
+// koi bhi update krna hai use chane kro and vo compare krega real dom se and vo changes hoge use hi re-render hoga extra components re-render nhi hoge :
+faltu k rendering nhi hogi : 
+
+jsx : javaScript xml : HTML + javaScript :
+app js me html likh skte ho
+
+4. Making react folder with vite : 
+
+vite : react ka folder banata hai :
+
+1.npm create vite 
+2.folde ka naam : 
+3.cd folder
+4. npm install
+5. npm run dev
+
+folder-structure : index.html > main.jsx > App.jsx
+
+
+
+
+
+
+
+
+
+
+
