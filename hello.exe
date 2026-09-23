@@ -60,6 +60,17 @@ vite : react ka folder banata hai :
 
 folder-structure : index.html > main.jsx > App.jsx
 
+// 05. Components : 
+
+React me components hote hai 
+components : chhota piece of code : ek particular feature k liye use hota hai
+
+// 06.props and props drilling : 
+
+
+
+
+
 
 
 
