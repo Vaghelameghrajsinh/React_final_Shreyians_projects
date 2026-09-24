@@ -67,6 +67,16 @@ components : chhota piece of code : ek particular feature k liye use hota hai
 
 // 06.props and props drilling : 
 
+ 1.data parent se child se jata hai 
+ App.js me se data --> Card.jsx me jata hai --> img.jsx me data jata hai
+
+ 1. App.jsx me data jayega aage uske child me using 
+ props :
+ 2. props : ek object hai 
+ and koi bhi data ko use krne k liye props.name : 
+
+// 07. project for props drilling : 
+
 
 
 
